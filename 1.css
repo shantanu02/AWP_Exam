@@ -1,0 +1,20 @@
+html,body{
+    background: #d1bf9d;
+}
+
+.my-nav{
+    height : 65px;
+    color: white;
+    font-family: cursive;
+    
+}
+
+.my-post{
+    height: 200px;
+    border-radius: 3% !important;
+}
+.text-style{
+    color: white;
+    font-size: 1.25rem;
+    font-family: cursive;
+}

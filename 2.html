@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Question 2 </title>
+    <style>
+        html,
+        body {
+            background: linear-gradient(120deg, rgb(24, 58, 55), rgb(115, 192, 206))
+        }
+
+        #submit-btn:hover {
+            background: rgb(69, 182, 4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid " style="height: 100vh;">
+        <div class="row justify-content-center">
+            <div class="col-8 col-md-7 mt-5 bg-info p-5 border">
+
+                <div style="font-weight: bold; font-size: 1.5rem;">User Details</div>
+
+                <hr>
+
+                <label for="uname" style="font-weight: bold;">Username</label><br>
+                <input type="text" id="uname" placeholder="John"><br>
+                <br>
+                <label for="pass" style="font-weight: bold;">Password</label><br>
+                <input type="password" id="pass" placeholder="******"><br>
+                <br>
+                <button class="btn btn-primary" id="submit-btn" onclick="formDetail()">Submit</button>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- display  -->
+        <div class="row justify-content-center mt-3 " id="dispaly-cont">
+            <div class="col-8 col-md-7 mt-5 bg-info p-4 border" id="dbox" style="display: none;">
+                <div style="font-weight: bold; display: flex; justify-content: center; font-size: 1.5rem;">Form Details
+                </div>
+                <div>Username:- <span style="font-weight: bold;"></span></div>
+                <div>Password:- <span style="font-weight: bold;"></span></div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="2.js"></script>
+</body>
+
+</html>
